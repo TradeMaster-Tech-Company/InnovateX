@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background-image: url("../images/random8.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.token-title {
+    padding: 40px;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 60px;
+    color: #f2f2f2;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #f2f2f2;
+}
+
+.token-info {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: black;
+    background-color: #ffffffb4;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.token-pic {
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #00aeef;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0072ae;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.feature {
+    max-width: 400px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature-icon {
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #00aeef;
+}
+
+.feature-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.feature-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #666;
+    padding: 0px 20px;
+}
+
+.whitepaper {
+    width: 90%;
+    margin: 50px auto;
+    margin-bottom: 0;
+    padding: 50px;
+    background-color: #ffffffb4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.whitepaper h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.whitepaper p {
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+    text-align: justify;
+}
